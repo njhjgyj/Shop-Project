@@ -1,0 +1,133 @@
+* {
+
+    margin: 0%;
+    padding: 0%;
+
+}
+
+
+#main-div1 {
+
+    /* background-color: purple; */
+
+}
+
+#main-div2 {
+
+    background-color: rgba(255, 255, 255, 0.647);
+    position: absolute;
+    top: 100%;
+
+}
+
+#div1 {
+
+    /* width: 100%;
+    height: 100px; */
+    /* background-color: orange; */
+
+}
+
+video {
+
+    /* position: absolute;
+    top: 0;
+    right: 0; */
+    z-index: -1;
+    width: 100%;
+
+}
+
+#span-tag1 {
+
+    /* background-color: blue; */
+
+}
+
+#video-tag1 {
+
+    /* background-color: red; */
+
+}
+
+#div2 {
+
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 90vh;
+    margin-bottom: 10%;
+    margin-left: 20%;
+    position: absolute;
+    top: 20px;
+
+}
+
+h1 {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#div3 {
+
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+#div4 {
+
+    /* background-color: white; */
+    /* display: flex;
+    align-items: center; */
+    /* margin-left: 2%; */
+
+
+}
+
+#div5 {
+
+    /* background-color: white; */
+
+}
+
+#span-tag4 {
+
+    /* background-color: rgba(0, 0, 255, 0.212); */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 99%;
+    margin-left: 1%;
+
+}
+
+.span-class2 {
+
+    margin: 10px;
+
+}
+
+details[open] {
+    animation: sweep .5s ease-in-out;
+}
+
+@keyframes sweep {
+    0% {
+        opacity: 0;
+        margin-left: -10px;
+
+    }
+
+    100% {
+        opacity: 1;
+        margin-left: 0px
+    }
+}
