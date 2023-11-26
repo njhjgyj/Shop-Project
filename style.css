@@ -57,6 +57,33 @@ video {
 
 }
 
+
+@keyframes introAnimation1 {
+
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
+
+@keyframes introAnimatio2 {
+
+    0% {
+        opacity: 0;
+        margin-left: -10%;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
+
+
 #div2 {
 
     /* background-color: red; */
@@ -71,6 +98,9 @@ video {
     position: absolute;
     /* top: 20px; */
 
+    animation: introAnimatio2;
+    animation-duration: 2s;
+
 }
 
 h1 {
@@ -78,6 +108,30 @@ h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
+
+
+#h1-tag1 {
+
+    /* background-color: red; */
+    transition: 0.3s;
+    transition: ease-in-out;
+    animation: introAnimation1;
+    animation-duration: 2s;
+    /* animation-iteration-count: infinite */
+
+}
+
+#b-tag1 {
+
+    /* background-color: red; */
+    transition: 0.3s;
+    transition: ease-in-out;
+    animation: introAnimation1;
+    animation-duration: 2s;
+    /* animation-iteration-count: infinite; */
+
+}
+
 
 #div3 {
 
