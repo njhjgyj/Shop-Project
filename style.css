@@ -60,15 +60,16 @@ video {
 #div2 {
 
     /* background-color: red; */
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
     height: 90vh;
-    margin-bottom: 10%;
-    margin-left: 20%;
+    /* margin-bottom: 10%; */
+    /* margin-left: 20%; */
     position: absolute;
-    top: 20px;
+    /* top: 20px; */
 
 }
 
